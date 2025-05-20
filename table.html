@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tfoot {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Favorite Food</th>
+                <th>Favorite websites</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jollof Rice</td>
+                <td><ul>
+                    <li><a href="https://www.netflix.com/" target="_blank" rel="noopener noreferrer">Netflix</a></li>
+                    <li><a href="http://www.alueducation.com/" target="_blank" rel="noopener noreferrer">African Leadership University</a></li>
+                    <li><a href="http://rebular.com" target="_blank" rel="noopener noreferrer">Rubular</a></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>Isombe</td>
+                <td><ul>
+                    <li><a href="https://www.youtube.com/">Youtube<a></li>
+                    <li><a href="https://www.instagram.com/">Instagram<a></li>
+                </ul></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><p>"One cannot think well, love well, sleep well, if one has not dined well." - Virginia Woolf </p></td>
+            </tr>
+        </tfoot>
+    </table>
+  
+</body> 
+</html>
